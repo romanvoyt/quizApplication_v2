@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="marginLeftAll">20dp</dimen>
+    <dimen name="marginTopAll">20dp</dimen>
+    <dimen name="marginRightAll">20dp</dimen>
+    <dimen name="marginBottomAll">20dp</dimen>
+
+    <dimen name="marginLeftAnswers">20dp</dimen>
+    <dimen name="marginTopAnswers">5dp</dimen>
+    <dimen name="marginBottomAnswers">5dp</dimen>
+</resources>

@@ -1,0 +1,97 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- layout measurements -->
+
+    <style name="linear_layout1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- Top statement -->
+
+    <style name="top_statement">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">@dimen/marginTopAll</item>
+    </style>
+
+    <!-- SCORE FIELD -->
+
+    <style name="score_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_marginLeft">@dimen/marginLeftAll</item>
+        <item name="android:layout_marginTop">@dimen/marginTopAll</item>
+    </style>
+
+    <style name="score_counter">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginRight">@dimen/marginRightAll</item>
+        <item name="android:layout_marginTop">@dimen/marginTopAll</item>
+    </style>
+
+    <!-- QUESTION STYLE -->
+
+    <style name="question">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_marginLeft">@dimen/marginLeftAll</item>
+        <item name="android:layout_marginTop">@dimen/marginTopAll</item>
+        <item name="android:layout_marginBottom">@dimen/marginBottomAll</item>
+        <item name="android:layout_marginRight">@dimen/marginRightAll</item>
+    </style>
+
+    <!-- ANSWER STYLE -->
+
+    <style name="answer_choice">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_marginLeft">@dimen/marginLeftAnswers</item>
+        <item name="android:layout_marginTop">@dimen/marginTopAnswers</item>
+        <item name="android:layout_marginBottom">@dimen/marginBottomAnswers</item>
+    </style>
+
+    <!-- TEXT_EDIT STYLE -->
+
+    <style name="text_edit_answer">
+        <item name="android:layout_width">350dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/marginLeftAnswers</item>
+    </style>
+
+    <!-- BUTTON STYLE -->
+
+    <style name="button_style">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_marginTop">@dimen/marginTopAll</item>
+        <item name="android:layout_marginBottom">@dimen/marginBottomAll</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+</resources>

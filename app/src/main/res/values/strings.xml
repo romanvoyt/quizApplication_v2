@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">quizApp</string>
+
+    <!-- QUEST -->
+    <string name="quest">Answer following questions:</string>
+
+    <!-- SCORE -->
+    <string name="playerScore">Your score:</string>
+
+    <!-- QUESTIONS 1,2,3 -->
+    <string name="question1">Which is a synonym of "valuable"?</string>
+    <string name="question2">Which is a synonym of "sector"?</string>
+    <string name="question3">Which is a synonym of "deft"?</string>
+
+    <!-- ANSWERS for 1,2,3 questions -->
+    <string name="answer_1_1">Important</string>
+    <string name="answer_1_2">Crazy</string>
+    <string name="answer_1_3">Immoral</string>
+
+    <string name="answer_2_1">Category</string>
+    <string name="answer_2_2">Sale</string>
+    <string name="answer_2_3">District</string>
+
+    <string name="answer_3_1">Amazing</string>
+    <string name="answer_3_2">Skillful</string>
+    <string name="answer_3_3">Terrible</string>
+
+    <!-- QUESTIONS 4,5 -->
+
+    <string name="question4">Which of these are closest in meaning to "beautiful"?(choose 2 answers)</string>
+    <string name="question5">Write a synonym for "white":</string>
+
+    <!--- ANSWER 4,5 -->
+
+    <string name="answer_4_1">Attractive</string>
+    <string name="answer_4_2">Extreme</string>
+    <string name="answer_4_3">Handsome</string>
+    <string name="answer_4_4">Awkward</string>
+
+    <string name="answer_5">Colourless</string>
+
+    <!-- BUTTON -->
+
+    <string name="button">SUBMIT</string>
+
+</resources>
